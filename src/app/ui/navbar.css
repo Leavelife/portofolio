@@ -1,0 +1,28 @@
+.wrapp {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 1em;
+    border-radius: 20px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.navbar p {
+    margin-left: 1em;
+    color: white;
+    text-decoration: none;
+}
+.link {
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+}
