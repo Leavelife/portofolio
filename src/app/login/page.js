@@ -1,12 +1,11 @@
-import Navbar from "../../components/Navbar";
+import "../ui/login.css"
 
 export default function Login() {
     return (
         <div className="content">
-            <Navbar/>
             <div className="wrapp-login">
-                <p>Login</p>
-                <div className="login-input">
+                <p className="login-text">Login</p>
+                <div className="login-input" >
                     <p>Username</p>
                     <input placeholder="username"/>
                     <p>Email</p>
@@ -14,11 +13,11 @@ export default function Login() {
                     <p>Password</p>
                     <input placeholder="password"/>
                 </div>
-                <div>
+                <div className="check-text">
                     <input type="checkbox"/>
                     <p>Terima Persyaratan dan Ketentuan</p>
                 </div>
-                <button>Submit</button>
+                <button className="button">Submit</button>
             </div>
         </div>
     )

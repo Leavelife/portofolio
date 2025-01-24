@@ -17,11 +17,11 @@
 }
 .navbar p {
     margin-left: 1em;
-    color: white;
+    color: rgb(236, 239, 241);
     text-decoration: none;
 }
 .link {
-    color: white;
+    color: rgb(237, 240, 245);
     margin-left: 1em;
     margin-right: 1em;
     display: flex;

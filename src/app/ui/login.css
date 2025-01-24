@@ -1,0 +1,59 @@
+.content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapp-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+    border: 1px solid white;
+    background-color: rgba(196, 205, 255, 0.089);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 3px rgb(38, 38, 88);
+}
+.login-text {
+    margin: 0;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.login-input p {
+    margin: 1em 0 0.5em 0 ;
+}
+.login-input input {
+    padding: 5px;
+    font-size: medium;
+    outline: none;
+    border: none;
+    width: 15em;
+    color: rgb(201, 201, 211);
+    background: transparent;
+    margin-bottom: 0.6em ;
+    border-bottom: 1px solid rgb(75, 82, 92);
+}
+.login-input input:hover {
+    transition: .2s ease-in-out;
+    border-bottom: 1px solid white;
+}
+.check-text {
+    display: flex;
+    gap: 5px;
+}
+.button {
+    border: none;
+    color: rgb(223, 223, 233);
+    font-size: medium ;
+    border-radius: 5px;
+    background-color: rgba(158, 162, 172, 0.253);
+    padding: 0.6em 1em 0.6em 1em;
+}
+.button:hover {
+    background: transparent;
+    transition: .1s ease-in-out;
+    box-shadow: 0 0 4px 1px rgba(211, 217, 223, 0.616);
+}

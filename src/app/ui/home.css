@@ -1,0 +1,23 @@
+.main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+}
+.main-home p {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
